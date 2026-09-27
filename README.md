@@ -59,3 +59,4 @@ Hands-on workflows and exercises in the [Copilot app workshop](https://github-sa
 2. [Copilot app workshop ](https://github-samples.github.io/copilot-workshops/app/)
 3. [GitHub Copilot app for Beginners](https://gh.io/copilot-app-course)
 4. [GitHub Copilot app for Beginners Playlist](https://youtube.com/playlist?list=PLNBWjViYXaIY&si=skqoOQ1y7gNuUOhn)
+5. [Awesome GitHub Copilot](https://awesome-copilot.github.com/)
