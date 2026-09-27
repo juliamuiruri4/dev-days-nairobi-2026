@@ -1,9 +1,5 @@
 # GitHub Dev Days Nairobi 2026
 
-<p align="center">
-  <img src="assets/images/session-demo.png" alt="GitHub Dev Days Nairobi workshop in Microsoft Teams with the Copilot app and Tailspin Toys" width="900">
-</p>
-
 - **Event:** [GitHub Dev Days | Nairobi, Kenya](https://luma.com/d95fa0it)
 - **Date:** September 25, 2026
 - **Venue:** Microsoft ADC, Nairobi
@@ -22,34 +18,28 @@ Hands-on workflows and exercises in the [Copilot app workshop](https://github-sa
 
 <table>
 <tr>
-<th width="20%">Step</th>
-<th width="42%">What we did</th>
-<th width="38%">In the app</th>
+<th width="38%">What we did</th>
+<th width="62%">In the app</th>
 </tr>
 <tr>
-<td valign="top"><strong>🌟 Small change first</strong></td>
-<td valign="top">Added star ratings to the game cards, including a clear state for unrated games. We then used the repository's <code>make-contribution</code> skill to follow its issue and pull-request rules, run the required quality checks, create the linked issue, and open a focused PR.<br><br><strong>Features:</strong> agent skills, tool calls, native issues and pull requests.</td>
-<td align="center"><img src="assets/images/add-start-rating-prompt.png" alt="Copilot app completing checks and creating the star-ratings pull request" width="420"></td>
+<td valign="top"><strong>🌟 Small change first</strong><br><br>Added star ratings to the game cards, including a clear state for unrated games. We then used the repository's <code>make-contribution</code> skill to follow its issue and pull-request rules, run the required quality checks, create the linked issue, and open a focused PR.<br><br><strong>Features:</strong> agent skills, tool calls, native issues and pull requests.</td>
+<td align="center"><img src="assets/images/add-start-rating-prompt.png" alt="Copilot app completing checks and creating the star-ratings pull request" width="720"></td>
 </tr>
 <tr>
-<td valign="top"><strong>📐 Standards from an issue</strong></td>
-<td valign="top">Started directly from a backlog issue and asked the agent to establish repository coding standards. It updated scoped guidance, documented comment and API conventions, added ESLint enforcement, and validated the changes before opening the PR.<br><br><strong>Features:</strong> issue-to-agent-session workflow, issue context in the app, quality-checks skill.</td>
-<td align="center"><img src="assets/images/updated-repo-coding-standards.png" alt="Copilot app implementing repository coding standards from an issue" width="420"></td>
+<td valign="top"><strong>📐 Standards from an issue</strong><br><br>Started directly from a backlog issue and asked the agent to establish repository coding standards. It updated scoped guidance, documented comment and API conventions, added ESLint enforcement, and validated the changes before opening the PR.<br><br><strong>Features:</strong> issue-to-agent-session workflow, issue context in the app, quality-checks skill.</td>
+<td align="center"><img src="assets/images/updated-repo-coding-standards.png" alt="Copilot app implementing repository coding standards from an issue" width="720"></td>
 </tr>
 <tr>
-<td valign="top"><strong>🧵 Isolated agent session</strong></td>
-<td valign="top">Built accessible category and publisher filtering in a separate session and git worktree, while the other workshop tasks remained independent. The agent planned the work, implemented the data and UI layers, wrote unit and E2E tests, and showed the running result alongside its completed task list.<br><br><strong>Features:</strong> parallel sessions, isolated worktrees, Plan/Autopilot mode, task plan, integrated browser.</td>
-<td align="center"><img src="assets/images/adding-categories.png" alt="Copilot app showing the completed filtering plan, agent summary, and running Tailspin Toys interface" width="420"></td>
+<td valign="top"><strong>🧵 Isolated agent session</strong><br><br>Built accessible category and publisher filtering in a separate session and git worktree, while the other workshop tasks remained independent. The agent planned the work, implemented the data and UI layers, wrote unit and E2E tests, and showed the running result alongside its completed task list.<br><br><strong>Features:</strong> parallel sessions, isolated worktrees, Plan/Autopilot mode, task plan, integrated browser.</td>
+<td align="center"><img src="assets/images/adding-categories.png" alt="Copilot app showing the completed filtering plan, agent summary, and running Tailspin Toys interface" width="720"></td>
 </tr>
 <tr>
-<td valign="top"><strong>🎭 Real-browser verification</strong></td>
-<td valign="top">Connected the Playwright MCP server and used browser automation to inspect the real application, exercise the filter controls, and support E2E validation instead of treating the code diff as proof that the experience worked.<br><br><strong>Features:</strong> MCP servers, Playwright browser tools, integrated browser preview, E2E testing, customizable tool catalog.</td>
-<td align="center"><img src="assets/images/copilot-app-mcp.png" alt="GitHub Copilot app MCP catalog with Playwright installed" width="420"></td>
+<td valign="top"><strong>🎭 Real-browser verification</strong><br><br>Connected the Playwright MCP server and used browser automation to inspect the real application, exercise the filter controls, and support E2E validation instead of treating the code diff as proof that the experience worked.<br><br><strong>Features:</strong> MCP servers, Playwright browser tools, integrated browser preview, E2E testing, customizable tool catalog.</td>
+<td align="center"><img src="assets/images/copilot-app-mcp.png" alt="GitHub Copilot app MCP catalog with Playwright installed" width="720"></td>
 </tr>
 <tr>
-<td valign="top"><strong>🔀 From issue to merge</strong></td>
-<td valign="top">Followed work from the repository backlog into separate sessions and pull requests, then used Agent Merge to monitor review feedback, CI failures, and branch drift while leaving the final merge under human control.<br><br><strong>Features:</strong> My work, repository backlog, session status, native issue/PR management, Agent Merge.</td>
-<td align="center"><img src="assets/images/mywork-view.png" alt="GitHub Copilot app My work view showing repository issues and parallel sessions" width="420"></td>
+<td valign="top"><strong>🔀 From issue to merge</strong><br><br>Followed work from the repository backlog into separate sessions and pull requests, then used Agent Merge to monitor review feedback, CI failures, and branch drift while leaving the final merge under human control.<br><br><strong>Features:</strong> My work, repository backlog, session status, native issue/PR management, Agent Merge.</td>
+<td align="center"><img src="assets/images/mywork-view.png" alt="GitHub Copilot app My work view showing repository issues and parallel sessions" width="720"></td>
 </tr>
 </table>
 
